@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Strahinja" verbose="1" >
+    <test name="Projekat" >
+        <classes>
+            <class name="ElementsTab.TextBox.TestTextBox" />
+            <class name="ElementsTab.CheckBox.TestCheckBox" />
+            <class name="ElementsTab.RadioButtons.TestRadioButtons" />
+            <class name="ElementsTab.WebTables.TestWebTables" />
+            <class name="ElementsTab.Buttons.TestButtons" />
+            <class name="ElementsTab.Links.TestLinks" />
+            <class name="ElementsTab.BrokenLinksAndImages.TestBrokenLinksAndImages" />
+        </classes>
+    </test>
+
+</suite>
